@@ -65,37 +65,23 @@ function Footer() {
                 </div>
                 <small className='website-rights'>Jairo @2020</small>
                 <div className='social-icons'>
-                    <Link className='social-icon-link linkedin'
-                    to='/'
-                    target='_blank'
-                    aria-label='LinkedIn'
-                    >
-                        <i className='fab fa-linkedin'></i>
-                    </Link>
+                  
+                  <a className='social-icon-link linkedin' target="_blank" href="https://www.linkedin.com/in/jairo-carreon/" rel="noreferrer">
+                    <i className='fab fa-linkedin'></i>
+                  </a>
 
-                    <Link className='social-icon-link kaggle'
-                    to='/'
-                    target='_blank'
-                    aria-label='Kaggle'
-                    >
-                        <i className='fab fa-kaggle'></i>
-                    </Link>
+                  <a className='social-icon-link kaggle' target="_blank" href="https://www.kaggle.com/jairocarreon" rel="noreferrer">
+                    <i className='fab fa-kaggle'></i>
+                  </a>
                     
-                    <Link className='social-icon-link github'
-                    to='/'
-                    target='_blank'
-                    aria-label='Github'
-                    >
-                        <i className='fab fa-github'></i>
-                    </Link>
+                  <a className='social-icon-link github' target="_blank" href="https://github.com/jcarreon5" rel="noreferrer">
+                    <i className='fab fa-github'></i>
+                  </a>
+                    
 
-                    <Link className='social-icon-link instagram'
-                    to='/'
-                    target='_blank'
-                    aria-label='Instagram'
-                    >
-                        <i className='fab fa-instagram'></i>
-                    </Link>
+                  <a className='social-icon-link instagram' target="_blank" href="https://www.instagram.com/hey.jairo/" rel="noreferrer">
+                    <i className='fab fa-instagram'></i>
+                  </a>
 
                 </div>
             </div>
