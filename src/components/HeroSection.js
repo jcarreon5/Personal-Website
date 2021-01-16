@@ -1,15 +1,22 @@
 import React from 'react';
-import '../App.css'
-import {Button} from './Button'
+import '../App.css';
+import {Button} from './Button';
 import './HeroSection.css';
+import Jairo_pro from '../images/Jairo-Proffesional.jpg';
 
 function HeroSection() {
     return (
         <div className='hero-container'>
-            <video src="/videos/video-1.mp4" autoPlay loop muted/>
-            <h1>WELCOME!</h1>
-            <p> What are you waiting for</p>
-            <div className='hero-btns'>
+            <h1>Jairo Carreon </h1>
+            <p> Computer Science and Engineering Major</p>
+            
+            <div className='welcome-image-container'>
+                <img src={Jairo_pro} alt="Jairo-Proffesional"></img>
+            </div>
+            {/* <video src="/videos/video-1.mp4" autoPlay loop muted/> */}
+            
+            
+            {/* <div className='hero-btns'>
                 <Button
                     className='btns'
                     buttonStyle='btn--outline'
@@ -24,7 +31,7 @@ function HeroSection() {
                 >
                     Watch Trailer<i className='far fa-play-circle'/>
                 </Button>
-            </div>
+            </div> */}
         </div>
     )
 }
